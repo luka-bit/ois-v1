@@ -10,4 +10,7 @@ def izpis(visina: float, pospesek: float):
     print("pospesek =", pospesek)
 
 
+visina = float(input("vnesi nadmorsko visino [m]: "))
+izpis(visina, gravitacija(visina))
+
 print("OIS je zakon!")
